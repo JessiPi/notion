@@ -1,0 +1,43 @@
+<html>
+<head>
+  <title>Zufallsgenerator</title>
+  <style>
+#lbl {
+  font-family: monospace;
+  font-size: xx-large;
+  color: #000000;
+  paddings: 5px;
+  border: 1px solid #ececec;
+  text-align: center;
+  line-height: 1.5;
+  height: 85%
+  
+}
+
+#eingabe{
+  font-size:large;
+}
+
+body{
+  background-color: #29AE00;
+}
+
+</style>
+</head>
+<body>
+  <div id="lbl"></div>
+</body>
+
+#eingabe 
+  <input type="text" name="grenze">
+ 
+<script>
+  var max = grenze;
+  var zahl = Math.floor(Math.random()*(max+1);
+  
+  
+document.getElementById('lbl').innerHTML = zahl;
+
+</script>
+</html>
+  
